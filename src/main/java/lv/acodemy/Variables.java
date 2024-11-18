@@ -107,7 +107,44 @@ public class Variables {
         number++;
         System.out.println(number);
         number--;
-        System.out.println(number)
+        System.out.println(number);
+
+        int counter = 10;
+        counter++;
+        int postIncrement = counter++; // postIncrement = 11; counter = 12
+     int preIncrement = ++counter; // preIncrement = 13; counter = 13;
+     System.out.println(postIncrement);
+     System.out.println(preIncrement);
+
+     String name = "John";
+     String lastName = "Doe";
+
+     // Print them separately
+     System.out.println(name);
+     System.out.println(lastName);
+
+     String fullName = name + " " + lastName;
+     System.out.println(fullName);
+
+     // %s for string
+     // %d for numbers
+
+     System.out.println(String.format("My name is: %s, My surname is: %s", name, lastName));
+
+     System.out.printf("My name is: %s, My surname is: %s%n", name, lastName);
+     System.out.printf("My name is: %s, My surname is: %s\n", name, lastName);
+
+     var myCurrentAge = 30;
+     var text = "Hello World!";
+
+     String myVar;
+     myVar = "Hello, World!";
+
+
+
+
+
+
 
 
 
